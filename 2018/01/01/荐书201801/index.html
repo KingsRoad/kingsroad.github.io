@@ -21,12 +21,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '7.5.0',
     exturl: false,
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
@@ -175,21 +175,6 @@
     <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
-        <li class="menu-item menu-item-schedule">
-
-    <a href="/schedule/" rel="section"><i class="fa fa-fw fa-calendar"></i>日程表</a>
-
-  </li>
-        <li class="menu-item menu-item-sitemap">
-
-    <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>站点地图</a>
-
-  </li>
-        <li class="menu-item menu-item-commonweal">
-
-    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>公益 404</a>
-
-  </li>
   </ul>
 
 </nav>
@@ -197,10 +182,6 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
 
 
     <main class="main">
@@ -410,7 +391,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-《堂吉诃德》"><span class="nav-number">1.</span> <span class="nav-text">1. 《堂吉诃德》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-《百年孤独》"><span class="nav-number">2.</span> <span class="nav-text">2. 《百年孤独》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-《霍乱时期的爱情》"><span class="nav-number">3.</span> <span class="nav-text">3. 《霍乱时期的爱情》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-《银河帝国》"><span class="nav-number">4.</span> <span class="nav-text">4. 《银河帝国》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-《白夜行》"><span class="nav-number">5.</span> <span class="nav-text">5. 《白夜行》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-《失落的秘符》"><span class="nav-number">6.</span> <span class="nav-text">6. 《失落的秘符》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-《道德情操论》"><span class="nav-number">7.</span> <span class="nav-text">7. 《道德情操论》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-《控制论》"><span class="nav-number">8.</span> <span class="nav-text">8. 《控制论》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-《心外传奇》"><span class="nav-number">9.</span> <span class="nav-text">9. 《心外传奇》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-《至味在人间》"><span class="nav-number">10.</span> <span class="nav-text">10. 《至味在人间》</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-《堂吉诃德》"><span class="nav-text">1. 《堂吉诃德》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-《百年孤独》"><span class="nav-text">2. 《百年孤独》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-《霍乱时期的爱情》"><span class="nav-text">3. 《霍乱时期的爱情》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-《银河帝国》"><span class="nav-text">4. 《银河帝国》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-《白夜行》"><span class="nav-text">5. 《白夜行》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-《失落的秘符》"><span class="nav-text">6. 《失落的秘符》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-《道德情操论》"><span class="nav-text">7. 《道德情操论》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-《控制论》"><span class="nav-text">8. 《控制论》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-《心外传奇》"><span class="nav-text">9. 《心外传奇》</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-《至味在人间》"><span class="nav-text">10. 《至味在人间》</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -426,16 +407,16 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -449,6 +430,10 @@
 
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
 
     </div>
   </aside>
@@ -474,7 +459,7 @@
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
   </div>
 
         
@@ -500,7 +485,7 @@
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/motion.js"></script>
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 <script src="/js/next-boot.js"></script>
 
 
